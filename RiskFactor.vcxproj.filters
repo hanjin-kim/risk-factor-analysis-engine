@@ -80,9 +80,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="riskfactor\patterns\enable_shared_from_this.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
     <ClInclude Include="riskfactor\patterns\singleton.hpp">
       <Filter>헤더 파일</Filter>
     </ClInclude>
@@ -180,6 +177,9 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="riskfactor\managers\risk_factor_manager.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="riskfactor\utils\enable_shared_from_this.hpp">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
