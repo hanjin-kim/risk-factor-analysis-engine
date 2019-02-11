@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8AFC93CD-F8F1-4E41-8C60-67D3FB557DD3}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>RiskFactor</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>D:\Libraries\eigen\eigen_3.3.7;D:\Libraries\QuantLib\QuantLib-1.11;D:\Libraries\Boost\boost_1_68_0;$(ProjectDir);$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>D:\Libraries\eigen\eigen_3.3.7;D:\Libraries\QuantLib\QuantLib-1.11;D:\Libraries\Boost\boost_1_68_0;$(ProjectDir);$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Libraries\Boost\boost_1_68_0\libs;D:\Libraries\QuantLib\QuantLib-1.11\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>D:\Libraries\eigen\eigen_3.3.7;D:\Libraries\QuantLib\QuantLib-1.11;D:\Libraries\Boost\boost_1_68_0;$(ProjectDir);$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>D:\Libraries\eigen\eigen_3.3.7;D:\Libraries\QuantLib\QuantLib-1.11;D:\Libraries\Boost\boost_1_68_0;$(ProjectDir);$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Libraries\Boost\boost_1_68_0\libs;D:\Libraries\QuantLib\QuantLib-1.11\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_SCL_SECURE_NO_WARNINGS;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>.;$(ProjectDir)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="riskfactor\archive\archiver.cpp" />
+    <ClCompile Include="riskfactor\calendarical.cpp" />
+    <ClCompile Include="riskfactor\calendar\calendar.cpp" />
+    <ClCompile Include="riskfactor\covariance.cpp" />
+    <ClCompile Include="riskfactor\covariance\covariance_ewma.cpp" />
+    <ClCompile Include="riskfactor\covariance\covariance_sma.cpp" />
+    <ClCompile Include="riskfactor\date.cpp" />
+    <ClCompile Include="riskfactor\easylogging++\easylogging++.cc" />
+    <ClCompile Include="riskfactor\instruments\equity.cpp" />
+    <ClCompile Include="riskfactor\instruments\linear_instrument.cpp" />
+    <ClCompile Include="riskfactor\instruments\linear_instrument_portfolio.cpp" />
+    <ClCompile Include="riskfactor\instruments\tenored_bond.cpp" />
+    <ClCompile Include="riskfactor\managers\calendar_manager.cpp" />
+    <ClCompile Include="riskfactor\managers\covariance_manager.cpp" />
+    <ClCompile Include="riskfactor\managers\linear_instrument_manager.cpp" />
+    <ClCompile Include="riskfactor\managers\risk_factor_manager.cpp" />
+    <ClCompile Include="riskfactor\risk_factor.cpp" />
+    <ClCompile Include="riskfactor\risk_factor\bond_yield.cpp" />
+    <ClCompile Include="riskfactor\risk_factor\equity_price.cpp" />
+    <ClCompile Include="riskfactor\series_object.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="backup\utils\hash.hpp" />
+    <ClInclude Include="riskfactor\archivable.hpp" />
+    <ClInclude Include="riskfactor\archive\archiver.hpp" />
+    <ClInclude Include="riskfactor\argument.hpp" />
+    <ClInclude Include="riskfactor\calendarical.hpp" />
+    <ClInclude Include="riskfactor\calendar\calendar.hpp" />
+    <ClInclude Include="riskfactor\calendar\calendar_tag.hpp" />
+    <ClInclude Include="riskfactor\calendar\quantlib_calendar_factory.hpp" />
+    <ClInclude Include="riskfactor\covariance.hpp" />
+    <ClInclude Include="riskfactor\covariance\covariance_ewma.hpp" />
+    <ClInclude Include="riskfactor\covariance\covariance_sma.hpp" />
+    <ClInclude Include="riskfactor\date.hpp" />
+    <ClInclude Include="riskfactor\easylogging++\easylogging++.h" />
+    <ClInclude Include="riskfactor\errors.hpp" />
+    <ClInclude Include="riskfactor\instruments\equity.hpp" />
+    <ClInclude Include="riskfactor\instruments\tenored_bond.hpp" />
+    <ClInclude Include="riskfactor\instruments\linear_instrument.hpp" />
+    <ClInclude Include="riskfactor\instruments\linear_instrument_portfolio.hpp" />
+    <ClInclude Include="riskfactor\instruments\cash.hpp" />
+    <ClInclude Include="riskfactor\managers\calendar_manager.hpp" />
+    <ClInclude Include="riskfactor\managers\covariance_manager.hpp" />
+    <ClInclude Include="riskfactor\managers\linear_instrument_manager.hpp" />
+    <ClInclude Include="riskfactor\managers\risk_factor_manager.hpp" />
+    <ClInclude Include="riskfactor\named.hpp" />
+    <ClInclude Include="riskfactor\patterns\enable_shared_from_this.hpp" />
+    <ClInclude Include="riskfactor\patterns\singleton.hpp" />
+    <ClInclude Include="riskfactor\risk_factor.hpp" />
+    <ClInclude Include="riskfactor\risk_factor\bond_yield.hpp" />
+    <ClInclude Include="riskfactor\risk_factor\equity_price.hpp" />
+    <ClInclude Include="riskfactor\series_object.hpp" />
+    <ClInclude Include="riskfactor\timeseries.hpp" />
+    <ClInclude Include="riskfactor\types.hpp" />
+    <ClInclude Include="riskfactor\utils\hash.hpp" />
+    <ClInclude Include="riskfactor\weekday.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="fre::riskfactor::Archivable" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAUAEAAAAAAAAAAAQAA=</HashCode>
+      <FileName>riskfactor\archivable.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fre::riskfactor::Archiver" Collapsed="true">
+    <Position X="19" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAEgAAAAAAAAAAAAAAAgAAAAAAAAAAQAAAAACAAAAA=</HashCode>
+      <FileName>riskfactor\archive\archiver.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fre::riskfactor::Argument" Collapsed="true">
+    <Position X="20.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAEAAQAAAAAACAAIAAAAAAAAAA=</HashCode>
+      <FileName>riskfactor\argument.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fre::riskfactor::Calendarical" Collapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAICAAAAABAAAIAAAAAQAAAAAIABAAAAAAAA=</HashCode>
+      <FileName>riskfactor\calendarical.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fre::riskfactor::Calendar" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAgCAABICAAAAgQABAIABDAAFEgAAECAgAQACCAAA=</HashCode>
+      <FileName>riskfactor\calendar\calendar.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fre::riskfactor::QuantLibCalendarFactory" Collapsed="true">
+    <Position X="19" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>riskfactor\calendar\quantlib_calendar_factory.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fre::riskfactor::RiskFactor" Collapsed="true">
+    <Position X="4.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACAAAAAAAAAAIgAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>riskfactor\risk_factor.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fre::riskfactor::Covariance" Collapsed="true">
+    <Position X="6.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAgAAAAIAAIgAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>riskfactor\covariance.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fre::riskfactor::CovarianceEWMA" Collapsed="true">
+    <Position X="17.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAQAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>riskfactor\covariance\covariance_ewma.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fre::riskfactor::CovarianceSMA" Collapsed="true">
+    <Position X="15" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>riskfactor\covariance\covariance_sma.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fre::riskfactor::Date" Collapsed="true">
+    <Position X="22.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAICAAAAAAAAAAQAAAAAAAAABAAAgAAAAAAA=</HashCode>
+      <FileName>riskfactor\date.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fre::riskfactor::Equity" Collapsed="true">
+    <Position X="16.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAEAAAAAAAEAAAAACAAAAAAAA=</HashCode>
+      <FileName>riskfactor\instruments\equity.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fre::riskfactor::TenoredBond" Collapsed="true">
+    <Position X="10.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EBAAAAAAAAAAAAAAAAEAAAAAAAAAABAgAAAIAAAAAAA=</HashCode>
+      <FileName>riskfactor\instruments\tenored_bond.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fre::riskfactor::LinearInstrument" Collapsed="true">
+    <Position X="11" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAgEKCACADiCIAAAAQCBEAQSCAAEAAAAABAAAAEEAA=</HashCode>
+      <FileName>riskfactor\instruments\linear_instrument.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fre::riskfactor::LinearInstrumentPortfolio" Collapsed="true">
+    <Position X="12" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJAAAIAQAAIACAAAAAAAAEABAACCAACAAJAAAAAAAAA=</HashCode>
+      <FileName>riskfactor\instruments\linear_instrument_portfolio.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fre::riskfactor::Cash" Collapsed="true">
+    <Position X="14.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAQAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>riskfactor\instruments\cash.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fre::riskfactor::CalendarManager" Collapsed="true">
+    <Position X="9.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>riskfactor\managers\calendar_manager.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fre::riskfactor::CovarianceManager" Collapsed="true">
+    <Position X="2.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAQAAAAIAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>riskfactor\managers\covariance_manager.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fre::riskfactor::LinearInstrumentManager" Collapsed="true">
+    <Position X="5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAgAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>riskfactor\managers\linear_instrument_manager.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fre::riskfactor::RiskFactorManager" Collapsed="true">
+    <Position X="7.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACACAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>riskfactor\managers\risk_factor_manager.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fre::riskfactor::Named" Collapsed="true">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAACMAAAAAAEAAAAAEAAQAAABAA=</HashCode>
+      <FileName>riskfactor\named.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fre::riskfactor::enable_shared_from_This&lt;Derived&gt;" Collapsed="true">
+    <Position X="24.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>riskfactor\patterns\enable_shared_from_this.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fre::riskfactor::Singleton&lt;T&gt;" Collapsed="true">
+    <Position X="6" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACCAAAAABABAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>riskfactor\patterns\singleton.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fre::riskfactor::BondYield" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAEIgAAAAAAAAAAAAIABAAIAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>riskfactor\risk_factor\bond_yield.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fre::riskfactor::EquityPrice" Collapsed="true">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAEQAAIAAAAAAAAAAAAAAAAEAgAAA=</HashCode>
+      <FileName>riskfactor\risk_factor\equity_price.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fre::riskfactor::SeriesObject" Collapsed="true">
+    <Position X="0.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAQACAABAAABAAKAIIAASAAAAAAAACAgAAAAEgAI=</HashCode>
+      <FileName>riskfactor\series_object.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fre::riskfactor::TimeSeries&lt;T&gt;" Collapsed="true">
+    <Position X="20.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAYACACRAAARAjKAIKAASBMgAACAACQoAAgBEAAg=</HashCode>
+      <FileName>riskfactor\timeseries.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="fre::riskfactor::EnumClassHash" Collapsed="true">
+    <Position X="19" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>riskfactor\types.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="fre::riskfactor::detail::long_weekday_holder" Collapsed="true">
+    <Position X="20.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>riskfactor\weekday.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="fre::riskfactor::detail::short_weekday_holder" Collapsed="true">
+    <Position X="22.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>riskfactor\weekday.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="fre::riskfactor::detail::shortest_weekday_holder" Collapsed="true">
+    <Position X="24.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>riskfactor\weekday.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="fre::riskfactor::ArgList" Collapsed="true">
+    <Position X="19" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>riskfactor\covariance.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="fre::riskfactor::Error" Collapsed="true">
+    <Position X="24.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>riskfactor\errors.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="fre::riskfactor::Beta" Collapsed="true">
+    <Position X="20.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>riskfactor\instruments\equity.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="fre::riskfactor::YearFraction" Collapsed="true">
+    <Position X="11.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>riskfactor\instruments\tenored_bond.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="fre::riskfactor::CurvName" Collapsed="true">
+    <Position X="16.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>riskfactor\instruments\tenored_bond.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="fre::riskfactor::Duration" Collapsed="true">
+    <Position X="11.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>riskfactor\instruments\tenored_bond.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="fre::riskfactor::TenorL" Collapsed="true">
+    <Position X="0.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>riskfactor\instruments\tenored_bond.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="fre::riskfactor::TenorR" Collapsed="true">
+    <Position X="3.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>riskfactor\instruments\tenored_bond.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="fre::riskfactor::Mask" Collapsed="true">
+    <Position X="7.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>riskfactor\instruments\linear_instrument.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="fre::riskfactor::Weight" Collapsed="true">
+    <Position X="20.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>riskfactor\instruments\linear_instrument.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="fre::riskfactor::Delta" Collapsed="true">
+    <Position X="19" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>riskfactor\instruments\linear_instrument.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="fre::riskfactor::Exposure" Collapsed="true">
+    <Position X="19" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>riskfactor\instruments\linear_instrument.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="fre::riskfactor::Option" Collapsed="true">
+    <Position X="10.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>riskfactor\instruments\linear_instrument.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="fre::riskfactor::Price" Collapsed="true">
+    <Position X="22.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>riskfactor\instruments\linear_instrument.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="fre::riskfactor::Yield" Collapsed="true">
+    <Position X="22.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>riskfactor\risk_factor\bond_yield.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="fre::riskfactor::Double" Collapsed="true">
+    <Position X="20.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>riskfactor\types.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="fre::riskfactor::String" Collapsed="true">
+    <Position X="13.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>riskfactor\types.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="fre::riskfactor::Name" Collapsed="true">
+    <Position X="16.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>riskfactor\types.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="fre::riskfactor::Desc" Collapsed="true">
+    <Position X="13.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>riskfactor\types.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="fre::riskfactor::ArchiveTag" Collapsed="true">
+    <Position X="13.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>riskfactor\types.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="fre::riskfactor::Bool" Collapsed="true">
+    <Position X="7.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>riskfactor\types.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="fre::riskfactor::Size" Collapsed="true">
+    <Position X="19" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>riskfactor\types.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="fre::riskfactor::Data" Collapsed="true">
+    <Position X="24.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>riskfactor\types.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="fre::riskfactor::Lambda" Collapsed="true">
+    <Position X="20.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>riskfactor\types.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="fre::riskfactor::CalendarTag" Collapsed="true">
+    <Position X="20.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAgkISARAQkAMAgBgEUKAhQhARAWJYEwBSIoiAAKlKA=</HashCode>
+      <FileName>riskfactor\calendar\calendar_tag.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="fre::riskfactor::Tenor" Collapsed="true">
+    <Position X="3.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CABAAAUAgAAUAAAAEIDACIAACgAAAAAAAAAAAAEAAQE=</HashCode>
+      <FileName>riskfactor\instruments\tenored_bond.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="fre::riskfactor::LinearInstrumentType" Collapsed="true">
+    <Position X="20.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAgAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>riskfactor\managers\linear_instrument_manager.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="fre::riskfactor::RiskFactorType" Collapsed="true">
+    <Position X="22.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAEgAAA=</HashCode>
+      <FileName>riskfactor\managers\risk_factor_manager.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="fre::riskfactor::AverageType" Collapsed="true">
+    <Position X="19" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>riskfactor\types.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="fre::riskfactor::Weekday" Collapsed="true">
+    <Position X="24.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAIAACAARAAAAAAAACAAIASAIEAAAAAEAAAAAIQ=</HashCode>
+      <FileName>riskfactor\weekday.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>
